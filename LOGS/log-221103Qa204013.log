@@ -1,0 +1,77 @@
+20:40:25.880  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+20:40:31.267  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+20:40:31.339  INFO  TestBase - Start Method with name --->addCarSuccess
+20:40:31.352  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:40:36.411  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:40:36.424  INFO  manager.ListenerWD - List size is -->0
+20:40:36.426  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+20:40:36.547  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+20:40:36.966  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+20:40:37.024  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+20:40:37.710  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:40:37.849  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:40:43.053  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+20:40:48.157  INFO  manager.ListenerWD - We have a 'problem'
+20:40:48.159  INFO  manager.ListenerWD - The name of error method  findElement
+20:40:48.161  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'MacBook-Air-Maya.local', ip: '2a10:8010:fb13:0:4c75:cea0:290c:b9bc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a63bb5c850c42680a60b0d376aeb016e, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/ts/kcz2p82915d...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65001/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a63bb5c850c42680a60b0d376aeb016e
+20:40:48.162  INFO  manager.ListenerWD - *********************
+20:40:48.163  INFO  manager.ListenerWD - ChromeDriver: chrome on MAC (a63bb5c850c42680a60b0d376aeb016e)
+20:40:48.164  INFO  manager.ListenerWD - Screen with error is  1615 ****src/test/screenshots/screen1615.png
+20:40:48.220  INFO  TestBase - Start Method with name --->addCarSuccessDP
+20:40:48.221  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:40:53.250  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:40:53.252  INFO  manager.ListenerWD - List size is -->0
+20:40:53.252  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+20:40:53.326  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+20:40:53.426  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+20:40:53.473  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+20:40:53.677  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:40:53.821  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:40:58.855  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+20:41:03.926  INFO  manager.ListenerWD - We have a 'problem'
+20:41:03.930  INFO  manager.ListenerWD - The name of error method  findElement
+20:41:03.931  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'MacBook-Air-Maya.local', ip: '2a10:8010:fb13:0:4c75:cea0:290c:b9bc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a63bb5c850c42680a60b0d376aeb016e, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/ts/kcz2p82915d...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65001/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a63bb5c850c42680a60b0d376aeb016e
+20:41:03.932  INFO  manager.ListenerWD - *********************
+20:41:03.933  INFO  manager.ListenerWD - ChromeDriver: chrome on MAC (a63bb5c850c42680a60b0d376aeb016e)
+20:41:03.933  INFO  manager.ListenerWD - Screen with error is  1782 ****src/test/screenshots/screen1782.png
+20:41:03.947  INFO  TestBase - Start Method with name --->addCarSuccessDP
+20:41:03.951  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:41:09.014  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:41:09.015  INFO  manager.ListenerWD - List size is -->0
+20:41:09.015  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: a[href ^='/login']
+20:41:09.106  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: a[href ^='/login']
+20:41:09.232  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+20:41:09.264  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+20:41:09.459  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:41:09.619  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:41:15.071  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[text()='Search cars']
+20:41:20.104  INFO  manager.ListenerWD - We have a 'problem'
+20:41:20.106  INFO  manager.ListenerWD - The name of error method  findElement
+20:41:20.106  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'MacBook-Air-Maya.local', ip: '2a10:8010:fb13:0:4c75:cea0:290c:b9bc%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '1.8.0_341'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a63bb5c850c42680a60b0d376aeb016e, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/ts/kcz2p82915d...}, goog:chromeOptions: {debuggerAddress: localhost:65001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:65001/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a63bb5c850c42680a60b0d376aeb016e
+20:41:20.107  INFO  manager.ListenerWD - *********************
+20:41:20.107  INFO  manager.ListenerWD - ChromeDriver: chrome on MAC (a63bb5c850c42680a60b0d376aeb016e)
+20:41:20.107  INFO  manager.ListenerWD - Screen with error is  1782 ****src/test/screenshots/screen1782.png

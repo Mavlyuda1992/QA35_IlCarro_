@@ -1,0 +1,17 @@
+20:35:49.713  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+20:35:55.701  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+20:35:55.763  INFO  TestBase - Start Method with name --->loginSuccessModels
+20:35:55.771  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:36:00.832  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //a[text()=' Logout ']
+20:36:00.832  INFO  manager.ListenerWD - List size is -->0
+20:36:00.836  INFO  TestBase - Login scenario success was used dataUser{name='null', lastname='null', email='noa@gmail.com', password='Nnoa12345$', phone='null'}
+20:36:00.837  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //a[text()='Log in']
+20:36:00.968  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //a[text()='Log in']
+20:36:01.637  INFO  manager.ListenerWD - Before Find Element By -->By.id: password
+20:36:01.708  INFO  manager.ListenerWD - After Find Element By -->By.id: password
+20:36:02.256  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+20:36:02.329  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+20:36:07.505  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: //button[text()='Ok']
+20:36:12.575  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: //button[text()='Ok']
+20:36:12.578  INFO  manager.ListenerWD - List size is -->0
+20:36:12.579  INFO  manager.HelperBase - Click OK button was needed

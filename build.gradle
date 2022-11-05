@@ -1,0 +1,63 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.5'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.4.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+    implementation 'ch.qos.logback:logback-classic:1.2.8'
+}
+
+test {
+    useTestNG()
+}
+
+task carro(type: Test){
+    useTestNG(){
+
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+
+        def suite = System.getProperty('suite', '')
+
+        if(suite.equals("testng")){
+            suites 'src/test/resources/testng.xml'
+        }else if (suite.equals("cartests")){
+            suites 'src/test/resources/cartests.xml'
+        }else {
+            suites 'src/test/resources/alltests.xml'
+        }
+
+
+
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
+
+task groups(type :Test){
+    useTestNG(){
+        suites 'src/test/resources/groups.xml'
+    }
+
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
+}
